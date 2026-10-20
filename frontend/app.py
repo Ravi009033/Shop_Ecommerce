@@ -21,7 +21,14 @@ INSTAGRAM_URL = "https://www.instagram.com/"
 FACEBOOK_URL = "https://www.facebook.com/"
 YOUTUBE_URL = "https://www.youtube.com/"
 DELIVERY_NOTE = "Message us on WhatsApp to confirm delivery options and availability."
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+#API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+try:
+    API_URL = st.secrets["API_URL"].rstrip("/")
+except Exception:
+    API_URL = os.getenv(
+        "API_URL",
+        "http://127.0.0.1:8000"
+    ).rstrip("/")
 # ================================================
 
 st.markdown("""
