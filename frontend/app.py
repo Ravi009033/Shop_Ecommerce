@@ -13,10 +13,10 @@ st.set_page_config(
 # ===== CUSTOMIZE THESE DETAILS FOR YOUR SHOP =====
 SHOP_NAME = "YOUR SHOP NAME"
 TAGLINE = "Quality you love. Prices you'll love even more."
-WHATSAPP_NUMBER = "919876543210"  # Country code + number, digits only
-PHONE_DISPLAY = "+91 98765 43210"
+WHATSAPP_NUMBER = "917050005421"  # Country code + number, digits only
+PHONE_DISPLAY = "+91 70500 05421"
 CONTACT_EMAIL = "hello@yourshop.com"
-SHOP_ADDRESS = "Your shop address, Your City"
+SHOP_ADDRESS = "Your shop address, Hajipur"
 INSTAGRAM_URL = "https://www.instagram.com/"
 FACEBOOK_URL = "https://www.facebook.com/"
 YOUTUBE_URL = "https://www.youtube.com/"
